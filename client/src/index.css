@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #001E2B  header-color*/
+/* #014E3D  heading-color*/
+/*  #061621 background color   */
+/*  #5d6c74 text-color */
+
+.theme_heading_color {
+  color: #014e3d;
+}
+
+
+
+.theme_background_color {
+  /* background-color: #061621; */
+  background-color: #014e3d;
+}
+
+.theme_text_color {
+  color: #5d6c74;
+}
+
+.cart__icon {
+  @apply bg-white theme_heading_color py-1 px-2 flex items-center space-x-2 rounded-full;
+}
